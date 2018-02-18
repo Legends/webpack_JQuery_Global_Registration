@@ -1,0 +1,5 @@
+# Generate a basic configuration file
+tslint --init
+
+# Lint TypeScript source globs
+tslint -c tslint.json 'src/**/*.ts'
